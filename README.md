@@ -64,6 +64,8 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 * [SDV](https://github.com/sdv-dev/SDV) - Synthetic Data Generator for tabular, relational, and time series data.
 * [Synthea](https://github.sre.pub/synthetichealth/synthea) - Synthetic Patient Population Simulator.
 * [ydata-synthetic](https://github.com/ydataai/ydata-synthetic) - Synthetic structured data generators.
+* [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html) - A tool for producing synthetic versions of microdata.
+
 
 ### Image
 * [Contrastive Unpaired Translation](https://github.com/taesungp/contrastive-unpaired-translation) - Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan.
@@ -91,6 +93,12 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 ### Generative Adversarial Networks (GANs)
 * **Modeling Tabular Data using Conditional GAN** (2019) Xu et al. [[pdf]](https://arxiv.org/pdf/1907.00503.pdf)
 * **Generating Long Videos of Dynamic Scenes** (2022) Tim Brooks [[pdf]](https://arxiv.org/pdf/2206.03429.pdf)
+* **Generative Adversarial Networks** (2014) Ian J. Goodfellow et al. [[pdf]](https://arxiv.org/abs/1406.2661)
+* **Conditional Generative Adversarial Nets** (2014) Mehdi Mirza et al. [[pdf]](https://arxiv.org/abs/1411.1784)
+* **Modeling Tabular Data using Conditional GAN** (2019) Xu et al. [[pdf]](https://arxiv.org/pdf/1907.00503.pdf)
+* **Wasserstein GAN** (2017) Martin Arjovsky, et al.[[pdf]](https://arxiv.org/abs/1701.07875)
+* **Improved Training of Wasserstein GANs** (2017) Ishaan Gulrajani, et al. [[pdf]](https://arxiv.org/abs/1704.00028)
+* **Time-series Generative Adversarial Networks** (2019) Jinsung Yoon, et all [[pdf]](https://proceedings.neurips.cc/paper/2019/file/c9efe5f26cd17ba6216bbe2a7d26d490-Paper.pdf)
 
 ### Diffusion Models
 * **Generative Modeling by Estimating Gradients of the Data Distribution** (2021) Yang Song [[pdf]](https://yang-song.github.io/blog/2021/score/)
@@ -100,7 +108,15 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 
 ### Fair AI
 
+* **A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle** (2021) Harini Suresh, John Guttag [[pdf]](https://arxiv.org/pdf/1901.10002.pdf)
+* **DECAF: Generating Fair Synthetic Data Using Causally-Aware Generative Networks** (2021) Boris van Breugel et al [[pdf]](https://openreview.net/forum?id=XN1M27T6uux)
+* **On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?** (2021) Emily M. Bender, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922)
+* **A Survey on Bias and Fairness in Machine Learning** (2022) Ninareh Mehrabi [[pdf]](https://arxiv.org/pdf/1908.09635.pdf)
+* **AI Fairness (Approaches & Mathematical Definitions)** (2022) Jonathan Hui [[blog]](https://jonathan-hui.medium.com/ai-fairness-approaches-mathematical-definitions-49cc418feebd)
+* **AI Fairness 360: An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias** (2018) Rachel K. E. Bellamy et al [[pdf]](https://arxiv.org/pdf/1810.01943.pdf)
+
 ### Algorithmic Privacy
+
 * **Deep Learning with Differential Privacy** (2016) Abadi et al. [[pdf]](https://arxiv.org/pdf/1607.00133.pdf)
 * **An Efficient DP-SGD Mechanism for Large Scale NLP Models** (2021) Dupuy et al. [[pdf]](https://arxiv.org/pdf/2107.14586.pdf)
 * **PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees** (2018) Jordon et al. [[pdf]](https://openreview.net/pdf?id=S1zk9iRqF7)
@@ -120,6 +136,11 @@ Synthetic Data as API with higher level functionality such model training, fine-
 * [Google Cloud Public Datasets](https://cloud.google.com/datasets) - Publicly available and free machine learning and analytics datasets.
 * [Kaggle Datasets](https://www.kaggle.com/datasets) - Data science and machine learning datasets.
 * [/r/datasets](https://www.reddit.com/r/datasets/) - A place to share, find, and discuss Datasets.
+* [Papers with Code - Datasets](https://paperswithcode.com/datasets) - The mission of Papers with Code is to create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables.
+* [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) - Topic centric, high quality, public data sources
+* [Data.gov](http://data.gov) - U.S. Government's open data
+* [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) - Popular datasets used by the machine learning community
+* [Google Research Dataset Search](https://datasetsearch.research.google.com/) - Discover datasets hosted in thousands of repositories across the web
 
 ## License
 [License](./LICENSE) - CC0
