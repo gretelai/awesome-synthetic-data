@@ -4,7 +4,7 @@
 
 A curated list of resources dedicated to Synthetic Data
 
-_If you want to contribute to this list (please do), send me a pull request or contact me [@AlexWatson405](https://twitter.com/alexwatson405)._
+_If you want to contribute to this list, read the [contribution guidelines](contributing.md) first. Please add your favourite synthetic data resource by raising a [pull request](https://github.com/gretelai/awesome-synthetic-data/pulls)_
 
 Also, a listed repository should be deprecated if:
 * Repository's owner explicitly says that "this library is not maintained".
