@@ -45,11 +45,15 @@ Introductions and Guides to Synthetic Data
 
 Blogs and Newsletters
 * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) - Andrej Karpathy's intro to RNNs.
+* [Annotated Diffusion](https://huggingface.co/blog/annotated-diffusion) - Tutorial on original diffusion model paper with code
 
 Videos and Online Courses
 
 ### Videos and Online Courses
 [Back to Top](#contents)
+
+### Diffusion Models
+* [Learning to Generate Data by Estimating Gradients of the Data Distribution](https://youtu.be/nv-WTeKRLl0) - Video by Yang Song from Stanford. Excellent theory and interesting applications.
 
 ## Libraries
 Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back to Top](#contents)
@@ -64,6 +68,7 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 ### Image
 * [Contrastive Unpaired Translation](https://github.com/taesungp/contrastive-unpaired-translation) - Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan.
 * [StyleGAN 3](https://github.com/NVlabs/stylegan3) - Official PyTorch implementation of StyleGAN3 from NeurIPS 2021.
+* [Denoising Diffusion Pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) - Implementation of DDPM
 
 ### Audio
 * [Jukebox](https://github.com/openai/jukebox/) - OpenAI's Jukebox- A Generative Model for Music.
@@ -74,19 +79,24 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 * [OpenAI Gym](https://github.com/openai/gym) - A toolkit for developing and comparing reinforcement learning algorithms.
 * [Unity Perception](https://github.com/Unity-Technologies/com.unity.perception) Perception toolkit for sim2real training and validation in Unity.
 
+### Video
+* [Video Diffusion Pytorch](https://github.com/lucidrains/video-diffusion-pytorch) - Implementation of video diffusion models in pytorch
 
 ## Academic Papers
 [Back to Top](#contents)
 
 ### Language Models
+* **Evaluating Large Language Models Trained on Code** (2021) March Chen et al. [[pdf]](https://arxiv.org/pdf/2107.03374.pdf)
 
 ### Generative Adversarial Networks (GANs)
 * **Modeling Tabular Data using Conditional GAN** (2019) Xu et al. [[pdf]](https://arxiv.org/pdf/1907.00503.pdf)
+* **Generating Long Videos of Dynamic Scenes** (2022) Tim Brooks [[pdf]](https://arxiv.org/pdf/2206.03429.pdf)
 
 ### Diffusion Models
 * **Generative Modeling by Estimating Gradients of the Data Distribution** (2021) Yang Song [[pdf]](https://yang-song.github.io/blog/2021/score/)
 * **Diffusion Models are Autoencoders** S. Dielman (2021) [[pdf]](https://benanne.github.io/2022/01/31/diffusion.html)
 * **Deep Unsupervised Learning using Nonequilibrium Thermodynamics** (2015) J Sohl-Dickstein et al. [[pdf]](https://arxiv.org/pdf/1503.03585.pdf)
+* **KNN-Diffusion: Image Generation via Large-Scale Retrieval** (2022) Oron Ashual [[pdf]](https://arxiv.org/pdf/2204.02849.pdf)
 
 ### Fair AI
 
