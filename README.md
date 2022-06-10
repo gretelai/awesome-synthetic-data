@@ -4,9 +4,9 @@
 
 A curated list of resources dedicated to Synthetic Data
 
-_Please read the contribution guidelines before contributing. Please add your favourite NLP resource by raising a pull request. 
-Also, a listed repository should be deprecated if:_
+_If you want to contribute to this list (please do), send me a pull request or contact me [@AlexWatson405](https://twitter.com/alexwatson405)._
 
+Also, a listed repository should be deprecated if:
 * Repository's owner explicitly says that "this library is not maintained".
 * Not committed for a long time (2~3 years).
 
@@ -18,9 +18,7 @@ Also, a listed repository should be deprecated if:_
   * [Reading Content](#reading-content)
   * [Videos and Online Courses](#videos-and-online-courses)
 * [Libraries](#libraries)
-  * [Text](#text)
-  * [Tabular](#tabular)
-  * [Time Series](#time-series)
+  * [Text](#text-tabular-and-time-series)
   * [Image](#image)
   * [Audio](#audio)
   * [Simulation](#simulation)
@@ -29,6 +27,7 @@ Also, a listed repository should be deprecated if:_
   * [Generative Adversarial Networks (GANs)](#generative-adversarial-networks-gans)
   * [Diffusion Models](#diffusion-models)
   * [Fair AI](#fair-ai)
+  * [Algorithmic Privacy](#algorithmic-privacy)
 * [Services](#services)
 * [Prominent Synthetic Data Research Labs](#prominent-synthetic-data-research-labs)
 * [Datasets](#datasets)
@@ -45,6 +44,7 @@ Also, a listed repository should be deprecated if:_
 Introductions and Guides to Synthetic Data
 
 Blogs and Newsletters
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) - Andrej Karpathy's intro to RNNs.
 
 Videos and Online Courses
 
@@ -61,7 +61,7 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 * [Synthea](https://github.sre.pub/synthetichealth/synthea) - Synthetic Patient Population Simulator.
 * [ydata-synthetic](https://github.com/ydataai/ydata-synthetic) - Synthetic structured data generators.
 
-### Images
+### Image
 * [Contrastive Unpaired Translation](https://github.com/taesungp/contrastive-unpaired-translation) - Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan.
 * [StyleGAN 3](https://github.com/NVlabs/stylegan3) - Official PyTorch implementation of StyleGAN3 from NeurIPS 2021.
 
@@ -81,6 +81,7 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 ### Language Models
 
 ### Generative Adversarial Networks (GANs)
+* **Modeling Tabular Data using Conditional GAN** (2019) Xu et al. [[pdf]](https://arxiv.org/pdf/1907.00503.pdf)
 
 ### Diffusion Models
 * **Generative Modeling by Estimating Gradients of the Data Distribution** (2021) Yang Song [[pdf]](https://yang-song.github.io/blog/2021/score/)
@@ -89,8 +90,16 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 
 ### Fair AI
 
+### Algorithmic Privacy
+* **Deep Learning with Differential Privacy** (2016) Abadi et al. [[pdf]](https://arxiv.org/pdf/1607.00133.pdf)
+* **An Efficient DP-SGD Mechanism for Large Scale NLP Models** (2021) Dupuy et al. [[pdf]](https://arxiv.org/pdf/2107.14586.pdf)
+* **PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees** (2018) Jordon et al. [[pdf]](https://openreview.net/pdf?id=S1zk9iRqF7)
+* **Don't Generate Me: Training Differentially Private Generative Models with Sinkhorn Divergence** (2021) Cao et al. [[pdf]](https://arxiv.org/pdf/2111.01177.pdf)
+* **Differentially Private Fine-tuning of Language Models** (2022) Yu et al. [[pdf]](https://openreview.net/pdf?id=Q42f0dfjECO)
+
 ## Services
 Synthetic Data as API with higher level functionality such model training, fine-tuning, and generation | [Back to Top](#contents)
+* [List of Synthetic Data Startups in 2021](https://elise-deux.medium.com/the-list-of-synthetic-data-companies-2021-5aa246265b42) - Not all of these necessarily have APIs. 
 
 ## Prominent Synthetic Data Research Labs
 [Back to Top](#contents)
