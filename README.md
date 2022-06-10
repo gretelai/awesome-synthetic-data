@@ -88,7 +88,7 @@ Open Source Generative Synthetic Data Models, Libraries and Frameworks | [Back t
 [Back to Top](#contents)
 
 ### Language Models
-* **Evaluating Large Language Models Trained on Code** (2021) March Chen et al. [[pdf]](https://arxiv.org/pdf/2107.03374.pdf)
+* **Evaluating Large Language Models Trained on Code** (2021) Mark Chen et al. [[pdf]](https://arxiv.org/pdf/2107.03374.pdf)
 
 ### Generative Adversarial Networks (GANs)
 * **Modeling Tabular Data using Conditional GAN** (2019) Xu et al. [[pdf]](https://arxiv.org/pdf/1907.00503.pdf)
